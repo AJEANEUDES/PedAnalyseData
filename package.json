@@ -1,0 +1,9 @@
+{
+  "name": "game-difficulty-analysis",
+  "private": true,
+  "scripts": {
+    "start": "python3 main.py",
+    "collect": "python3 -m src.data_collection",
+    "analyze": "python3 -m src.analysis"
+  }
+}

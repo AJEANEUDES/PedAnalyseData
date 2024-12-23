@@ -1,0 +1,60 @@
+2024-12-23 03:51:19,981 - INFO - Démarrage du pipeline d'analyse de la difficulté des jeux
+2024-12-23 03:51:20,061 - INFO - Démarrage de la collecte de données à partir du référentiel PED...
+2024-12-23 03:51:20,062 - INFO - Clonage du référentiel à partir de https://github.com/AJEANEUDES/PED.git...
+2024-12-23 04:00:09,652 - INFO - Clonage réussi du référentiel
+2024-12-23 04:00:09,721 - INFO - Raw data saved to data\raw_data_20241223_040009.json
+2024-12-23 04:00:09,722 - ERROR - Échec du pipeline: 'levels'
+2024-12-23 04:32:10,901 - INFO - Démarrage du pipeline d'analyse de la difficulté des jeux
+2024-12-23 04:32:10,931 - INFO - Démarrage de la collecte de données à partir du référentiel PED...
+2024-12-23 04:32:10,931 - INFO - Cloning repository from https://github.com/AJEANEUDES/PED.git...
+2024-12-23 04:32:12,281 - INFO - Repository updated successfully
+2024-12-23 04:32:12,352 - INFO - Raw data saved to data\raw_data_20241223_043212.json
+2024-12-23 04:32:12,353 - INFO - Recueil 200 des entrées de niveau
+2024-12-23 04:32:12,353 - INFO - Démarrage du prétraitement des données...
+2024-12-23 04:32:12,356 - INFO - Prétraitement des données terminé
+2024-12-23 04:32:12,357 - INFO - Construction d'un ensemble de données...
+2024-12-23 04:32:12,452 - INFO - Ensemble de données sauvegardé dans data\dataset_20241223_043212.csv
+2024-12-23 04:32:12,456 - INFO - Ensemble de données sauvegardé dans data\dataset_20241223_043212.pkl
+2024-12-23 04:32:12,457 - INFO - Jeu de données construit avec succès
+2024-12-23 04:32:12,457 - INFO - Analyse de départ...
+2024-12-23 04:32:16,391 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2024-12-23 04:32:16,538 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+2024-12-23 04:32:16,539 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-23 04:32:18,534 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:18] "GET / HTTP/1.1" 200 -
+2024-12-23 04:32:19,114 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/react-dom@16.v2_18_2m1732345109.14.0.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,216 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/prop-types@15.v2_18_2m1732345109.8.1.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,223 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/polyfill@7.v2_18_2m1732345109.12.1.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,252 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/react@16.v2_18_2m1732345109.14.0.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,316 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v2_14_3m1732345109.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,369 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_18_2m1732345108.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,455 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/dash_table/bundle.v5_2_13m1732345108.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,500 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/react-dom@16.v2_18_2m1732345109.14.0.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,501 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/prop-types@15.v2_18_2m1732345109.8.1.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,521 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/react@16.v2_18_2m1732345109.14.0.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,531 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/deps/polyfill@7.v2_18_2m1732345109.12.1.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,663 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/dcc/dash_core_components.v2_14_3m1732345109.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,755 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-component-suites/dash/html/dash_html_components.v2_0_20m1732345109.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:19,830 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-dependencies HTTP/1.1" 200 -
+2024-12-23 04:32:19,843 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:19] "GET /_dash-layout HTTP/1.1" 200 -
+2024-12-23 04:32:20,113 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:20] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v2_14_3m1732345109.js HTTP/1.1" 200 -
+2024-12-23 04:32:20,722 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:20] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_18_2m1732345108.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:21,393 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:21] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2024-12-23 04:32:21,545 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:21] "GET /_favicon.ico?v=2.18.2 HTTP/1.1" 200 -
+2024-12-23 04:32:21,889 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:21] "GET /_dash-component-suites/dash/dash_table/bundle.v5_2_13m1732345108.js HTTP/1.1" 200 -
+2024-12-23 04:32:22,152 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:22] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:24,346 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:24] "GET /_dash-component-suites/dash/dcc/dash_core_components.v2_14_3m1732345109.js HTTP/1.1" 200 -
+2024-12-23 04:32:24,352 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:24] "GET /_dash-component-suites/dash/html/dash_html_components.v2_0_20m1732345109.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:24,353 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:24] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2024-12-23 04:32:24,412 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:24] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2024-12-23 04:32:28,918 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:28] "GET / HTTP/1.1" 200 -
+2024-12-23 04:32:29,165 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:29] "GET /_dash-layout HTTP/1.1" 200 -
+2024-12-23 04:32:29,167 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:29] "GET /_dash-dependencies HTTP/1.1" 200 -
+2024-12-23 04:32:29,453 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:29] "GET /_favicon.ico?v=2.18.2 HTTP/1.1" 200 -
+2024-12-23 04:32:29,460 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:29] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2024-12-23 04:32:29,502 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:29] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2024-12-23 04:32:31,533 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:31] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2024-12-23 04:32:31,996 - INFO - 127.0.0.1 - - [23/Dec/2024 04:32:31] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2024-12-23 05:06:44,576 - INFO - 127.0.0.1 - - [23/Dec/2024 05:06:44] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2024-12-23 05:06:44,843 - INFO - 127.0.0.1 - - [23/Dec/2024 05:06:44] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
