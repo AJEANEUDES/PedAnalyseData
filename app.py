@@ -7,6 +7,7 @@ from src.data_preprocessing import DataPreprocessor
 from src.dataset_structure import DatasetBuilder
 from src.analysis import DataAnalyzer
 
+
 st.set_page_config(page_title="Analyse de la Difficulté des Jeux", layout="wide")
 
 def main():
@@ -21,13 +22,10 @@ def main():
         collector = DataCollector()
         raw_data = collector.collect_game_data(limit=limit)
     
-    # Prétraitement
+    # Prétraitement des données directement dans Streamlit
     with st.spinner("Prétraitement des données..."):
         preprocessor = DataPreprocessor()
-        clean_data = preprocessor.process_data(raw_data)
-        
-        dataset_builder = DatasetBuilder()
-        df = dataset_builder.build_dataset(clean_data)
+        df = preprocessor.process_data(raw_data)  # Traitement des données ici
     
     # Affichage des métriques principales
     col1, col2, col3, col4 = st.columns(4)
