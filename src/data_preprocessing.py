@@ -19,29 +19,41 @@ class DataPreprocessor:
             ]
         )
     
-    def process_data(self, raw_data: Dict[str, List[Dict[str, Any]]]) -> pd.DataFrame:
-        """
-        Nettoie et traite les données brutes du jeu.
-        Args:
-            raw_data : Dictionnaire contenant les données de niveau brut
-        Returns:
-            DataFrame contenant les données nettoyées et enrichies
-        """
-        try:
-            # Conversion des données brutes en DataFrame
-            df = pd.DataFrame(raw_data.get("levels", []))
+    def process_data(self, raw_data: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Nettoie et traite les données brutes du jeu.
+    Args:
+        raw_data : Dictionnaire contenant les données de niveau brut
+    Returns:
+        Dictionnaire contenant les données nettoyées et enrichies
+    """
+    try:
+        cleaned_data = []
+
+        # Vérifier si toutes les colonnes nécessaires sont présentes dans les données brutes
+        expected_columns = [
+            "level_id", "title", "maker", "difficulty", "clear_rate", 
+            "attempts", "clears", "likes", "tags", "completion_rate",
+            "difficulty_score", "popularity_score", "engagement_score"
+        ]
+        
+        for level in raw_data.get("levels", []):
+            missing_columns = [col for col in expected_columns if col not in level]
             
-            # Validation des données
-            df = self._validate_data(df)
-            
-            # Traitement des colonnes pour s'assurer que les types sont corrects
-            df = self._process_data(df)
-            
-            return df
-            
-        except Exception as e:
-            logging.error(f"Échec du prétraitement des données : {str(e)}")
-            raise Exception(f"Échec du prétraitement des données : {str(e)}")
+            if missing_columns:
+                logging.warning(f"Colonnes manquantes pour le niveau {level.get('level_id', 'inconnu')}: {', '.join(missing_columns)}")
+                for col in missing_columns:
+                    level[col] = None  # Ou toute autre valeur par défaut, comme une chaîne vide ou 0
+            else:
+                cleaned_level = self._process_level(level)
+                cleaned_data.append(cleaned_level)
+
+        return {"levels": cleaned_data}
+        
+    except Exception as e:
+        logging.error(f"Échec du prétraitement des données : {str(e)}")
+        raise Exception(f"Échec du prétraitement des données : {str(e)}")
+
     
     def _validate_data(self, df: pd.DataFrame) -> pd.DataFrame:
         """Valide les données, en s'assurant qu'elles contiennent les colonnes nécessaires."""
