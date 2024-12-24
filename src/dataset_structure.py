@@ -25,38 +25,73 @@ class DatasetBuilder:
             ]
         )
     
+    # def build_dataset(self, cleaned_data: Dict[str, List[Dict[str, Any]]]) -> pd.DataFrame:
+    #     """
+    #     Structure les données nettoyées dans un DataFrame pandas.
+    #     Args:
+    #         cleaned_data : Dictionnaire contenant les données de niveau nettoyées
+    #     Returns:
+    #         pandas DataFrame avec des données de jeu structurées
+    #     """
+    #     try:
+    #         # Convert to DataFrame
+    #         df = pd.DataFrame(cleaned_data["levels"])
+            
+    #         # Ensure all required columns are present
+    #         missing_cols = set(self.columns) - set(df.columns)
+    #         if missing_cols:
+    #             raise ValueError(f"Missing required columns: {missing_cols}")
+            
+    #         # Add metadata
+    #         df["timestamp"] = pd.Timestamp.now()
+    #         df["data_version"] = "1.0"
+            
+    #         # Convert tags list to string for easier storage
+    #         df["tags"] = df["tags"].apply(lambda x: ",".join(x) if isinstance(x, list) else x)
+            
+    #         # Save processed dataset
+    #         self._save_dataset(df)
+            
+    #         return df
+            
+    #     except Exception as e:
+    #         logging.error(f"Échec de la structuration du jeu de données: {str(e)}")
+    #         raise Exception(f"Échec de la structuration du jeu de données: {str(e)}")
+
     def build_dataset(self, cleaned_data: Dict[str, List[Dict[str, Any]]]) -> pd.DataFrame:
-        """
-        Structure les données nettoyées dans un DataFrame pandas.
-        Args:
-            cleaned_data : Dictionnaire contenant les données de niveau nettoyées
-        Returns:
-            pandas DataFrame avec des données de jeu structurées
-        """
-        try:
-            # Convert to DataFrame
-            df = pd.DataFrame(cleaned_data["levels"])
-            
-            # Ensure all required columns are present
-            missing_cols = set(self.columns) - set(df.columns)
-            if missing_cols:
-                raise ValueError(f"Missing required columns: {missing_cols}")
-            
-            # Add metadata
-            df["timestamp"] = pd.Timestamp.now()
-            df["data_version"] = "1.0"
-            
-            # Convert tags list to string for easier storage
-            df["tags"] = df["tags"].apply(lambda x: ",".join(x) if isinstance(x, list) else x)
-            
-            # Save processed dataset
-            self._save_dataset(df)
-            
-            return df
-            
-        except Exception as e:
-            logging.error(f"Échec de la structuration du jeu de données: {str(e)}")
-            raise Exception(f"Échec de la structuration du jeu de données: {str(e)}")
+    """
+    Structure les données nettoyées dans un DataFrame pandas.
+    """
+    try:
+        # Convert to DataFrame
+        df = pd.DataFrame(cleaned_data.get("levels", []))
+        
+        # Add missing columns with default values
+        for col in self.columns:
+            if col not in df.columns:
+                logging.warning(f"Colonne manquante détectée : {col}. Ajout avec une valeur par défaut.")
+                df[col] = np.nan  # Ou une valeur par défaut
+        
+        # Add metadata
+        df["timestamp"] = pd.Timestamp.now()
+        df["data_version"] = "1.0"
+        
+        # Convert tags list to string
+        if "tags" in df.columns:
+            df["tags"] = df["tags"].apply(lambda x: ",".join(x) if isinstance(x, list) else "")
+        else:
+            df["tags"] = ""
+        
+        # Save processed dataset
+        self._save_dataset(df)
+        
+        return df
+        
+    except Exception as e:
+        logging.error(f"Échec de la structuration du jeu de données: {str(e)}")
+        raise Exception(f"Échec de la structuration du jeu de données: {str(e)}")
+
+    
     
     def _save_dataset(self, df: pd.DataFrame):
         """Enregistre le jeu de données aux formats CSV et Pickle"""
