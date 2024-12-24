@@ -20,40 +20,40 @@ class DataPreprocessor:
         )
     
     def process_data(self, raw_data: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
-    """
-    Nettoie et traite les données brutes du jeu.
-    Args:
-        raw_data : Dictionnaire contenant les données de niveau brut
-    Returns:
-        Dictionnaire contenant les données nettoyées et enrichies
-    """
-    try:
-        cleaned_data = []
+        """
+        Nettoie et traite les données brutes du jeu.
+        Args:
+            raw_data : Dictionnaire contenant les données de niveau brut
+        Returns:
+            Dictionnaire contenant les données nettoyées et enrichies
+        """
+        try:
+            cleaned_data = []
 
-        # Vérifier si toutes les colonnes nécessaires sont présentes dans les données brutes
-        expected_columns = [
-            "level_id", "title", "maker", "difficulty", "clear_rate", 
-            "attempts", "clears", "likes", "tags", "completion_rate",
-            "difficulty_score", "popularity_score", "engagement_score"
-        ]
-        
-        for level in raw_data.get("levels", []):
-            missing_columns = [col for col in expected_columns if col not in level]
+            # Vérifier si toutes les colonnes nécessaires sont présentes dans les données brutes
+            expected_columns = [
+                "level_id", "title", "maker", "difficulty", "clear_rate", 
+                "attempts", "clears", "likes", "tags", "completion_rate",
+                "difficulty_score", "popularity_score", "engagement_score"
+            ]
             
-            if missing_columns:
-                logging.warning(f"Colonnes manquantes pour le niveau {level.get('level_id', 'inconnu')}: {', '.join(missing_columns)}")
-                for col in missing_columns:
-                    level[col] = None  # Ou toute autre valeur par défaut, comme une chaîne vide ou 0
-            else:
-                cleaned_level = self._process_level(level)
-                cleaned_data.append(cleaned_level)
+            for level in raw_data.get("levels", []):
+                missing_columns = [col for col in expected_columns if col not in level]
+                
+                if missing_columns:
+                    logging.warning(f"Colonnes manquantes pour le niveau {level.get('level_id', 'inconnu')}: {', '.join(missing_columns)}")
+                    # Remplir les colonnes manquantes avec None ou toute autre valeur par défaut
+                    for col in missing_columns:
+                        level[col] = None  # Ou toute autre valeur par défaut comme une chaîne vide ou 0
+                else:
+                    cleaned_level = self._process_level(level)
+                    cleaned_data.append(cleaned_level)
 
-        return {"levels": cleaned_data}
+            return {"levels": cleaned_data}
         
-    except Exception as e:
-        logging.error(f"Échec du prétraitement des données : {str(e)}")
-        raise Exception(f"Échec du prétraitement des données : {str(e)}")
-
+        except Exception as e:
+            logging.error(f"Échec du prétraitement des données : {str(e)}")
+            raise Exception(f"Échec du prétraitement des données : {str(e)}")
     
     def _validate_data(self, df: pd.DataFrame) -> pd.DataFrame:
         """Valide les données, en s'assurant qu'elles contiennent les colonnes nécessaires."""
@@ -76,6 +76,26 @@ class DataPreprocessor:
         df = df[df["difficulty"].isin(self.valid_difficulties)]
         
         return df
+    
+    def _process_level(self, level: Dict[str, Any]) -> Dict[str, Any]:
+        """Traite un niveau de données pour le formater correctement."""
+        # Conversion des champs nécessaires en types appropriés
+        processed = {
+            "level_id": level["level_id"],
+            "title": level["title"],
+            "maker": level["maker"],
+            "difficulty": level["difficulty"].lower(),
+            "clear_rate": float(level["clear_rate"]),
+            "attempts": int(level["attempts"]),
+            "clears": int(level["clears"]),
+            "likes": int(level["likes"]),
+            "tags": level["tags"],
+            "completion_rate": float(level["completion_rate"]),
+            "difficulty_score": float(level["difficulty_score"]),
+            "popularity_score": float(level["popularity_score"]),
+            "engagement_score": float(level["engagement_score"])
+        }
+        return processed
     
     def _process_data(self, df: pd.DataFrame) -> pd.DataFrame:
         """Traite les données brutes : conversion des types et calculs supplémentaires."""
@@ -114,4 +134,4 @@ if __name__ == "__main__":
     
     preprocessor = DataPreprocessor()
     clean_data = preprocessor.process_data(raw_data)
-    print(clean_data.head())
+    print(clean_data["levels"][:5])  # Affiche les 5 premiers niveaux nettoyés
