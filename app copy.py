@@ -2,29 +2,32 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from src.data_collection import DataCollector
+from src.data_preprocessing import DataPreprocessor
+from src.dataset_structure import DatasetBuilder
+from src.analysis import DataAnalyzer
 
 st.set_page_config(page_title="Analyse de la Difficulté des Jeux", layout="wide")
-
-# Fonction pour charger les données depuis le dépôt GitHub
-@st.cache_data
-def load_data():
-    try:
-        url = "https://raw.githubusercontent.com/AJEANEUDES/PED/main/data/processed/dataset.csv"
-        df = pd.read_csv(url)
-        return df
-    except Exception as e:
-        st.error(f"Erreur lors du chargement des données : {e}")
-        return None
 
 def main():
     st.title("Analyse de la Difficulté des Jeux")
     
-    # Chargement des données
+    # Sidebar pour les contrôles
     st.sidebar.header("Paramètres")
-    with st.spinner("Chargement des données..."):
-        df = load_data()
-        if df is None:
-            return  # Stop execution if data cannot be loaded
+    limit = st.sidebar.slider("Nombre de niveaux à analyser", 10, 500, 100)
+    
+    # Collecte des données
+    with st.spinner("Collecte des données en cours..."):
+        collector = DataCollector()
+        raw_data = collector.collect_game_data(limit=limit)
+    
+    # Prétraitement
+    with st.spinner("Prétraitement des données..."):
+        preprocessor = DataPreprocessor()
+        clean_data = preprocessor.process_data(raw_data)
+        
+        dataset_builder = DatasetBuilder()
+        df = dataset_builder.build_dataset(clean_data)
     
     # Affichage des métriques principales
     col1, col2, col3, col4 = st.columns(4)
@@ -53,7 +56,7 @@ def main():
     # Carte thermique des corrélations
     st.subheader("Carte Thermique des Corrélations")
     correlation_cols = ['difficulty_score', 'clear_rate', 'engagement_score', 
-                        'popularity_score', 'completion_rate']
+                       'popularity_score', 'completion_rate']
     correlation_matrix = df[correlation_cols].corr()
     
     fig_heatmap = go.Figure(data=go.Heatmap(
@@ -101,14 +104,14 @@ def main():
         st.plotly_chart(fig_engagement, use_container_width=True)
     
     with col3:
-        fig_engagement_difficulty = px.scatter(
+        fig_engagement_dificulty = px.scatter(
             df,
             x="difficulty_score",
             y="engagement_score",
             color="difficulty",
-            title="Score d'Engagement par rapport à la Difficulté"
+            title="Score d'engagement par rapport à la difficulté"
         )
-        st.plotly_chart(fig_engagement_difficulty, use_container_width=True)
+        st.plotly_chart(fig_engagement_dificulty, use_container_width=True)
          
     # Statistiques détaillées par niveau de difficulté
     st.subheader("Statistiques Détaillées par Niveau de Difficulté")
