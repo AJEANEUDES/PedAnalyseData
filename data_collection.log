@@ -83,3 +83,7 @@
 2024-12-24 11:29:52,554 - INFO - Ensemble de données sauvegardé dans data\dataset_20241224_112952.csv
 2024-12-24 11:29:52,583 - INFO - Ensemble de données sauvegardé dans data\dataset_20241224_112952.pkl
 2024-12-24 12:05:24,391 - INFO - Cloning repository from https://github.com/AJEANEUDES/PED.git...
+2024-12-24 12:05:27,892 - INFO - Repository updated successfully
+2024-12-24 12:05:27,936 - INFO - Raw data saved to data\raw_data_20241224_120527.json
+2024-12-24 12:05:28,206 - INFO - Ensemble de données sauvegardé dans data\dataset_20241224_120528.csv
+2024-12-24 12:05:28,221 - INFO - Ensemble de données sauvegardé dans data\dataset_20241224_120528.pkl
