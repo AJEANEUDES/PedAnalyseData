@@ -55,8 +55,6 @@ class DataPreprocessor:
             logging.error(f"Échec du prétraitement des données : {str(e)}")
             raise Exception(f"Échec du prétraitement des données : {str(e)}")
 
-   
-
     def _validate_data(self, df: pd.DataFrame) -> pd.DataFrame:
         """Valide les données, en s'assurant qu'elles contiennent les colonnes nécessaires."""
         required_columns = [
@@ -99,63 +97,35 @@ class DataPreprocessor:
         }
         return processed
     
-    # def _process_data(self, df: pd.DataFrame) -> pd.DataFrame:
-    #     """Traite les données brutes : conversion des types et calculs supplémentaires."""
-    #     # Conversion des colonnes nécessaires en type approprié
-    #     df["clear_rate"] = pd.to_numeric(df["clear_rate"], errors="coerce")
-    #     df["attempts"] = pd.to_numeric(df["attempts"], errors="coerce")
-    #     df["clears"] = pd.to_numeric(df["clears"], errors="coerce")
-    #     df["likes"] = pd.to_numeric(df["likes"], errors="coerce")
-    #     df["completion_rate"] = pd.to_numeric(df["completion_rate"], errors="coerce")
-    #     df["difficulty_score"] = pd.to_numeric(df["difficulty_score"], errors="coerce")
-    #     df["popularity_score"] = pd.to_numeric(df["popularity_score"], errors="coerce")
-    #     df["engagement_score"] = pd.to_numeric(df["engagement_score"], errors="coerce")
-        
-    #     # Calcul du taux de réussite (clear_rate) comme ratio de clears / attempts
-    #     df["calculated_clear_rate"] = df["clears"] / df["attempts"] * 100
-        
-    #     # Vérification et correction des taux de réussite calculés
-    #     df["clear_rate"] = df["clear_rate"].fillna(df["calculated_clear_rate"])
-        
-    #     # Normalisation de certaines métriques pour qu'elles soient sur une échelle de 0 à 1
-    #     df["difficulty_score"] = df["difficulty_score"].clip(0, 1)
-    #     df["engagement_score"] = df["engagement_score"].clip(0, 1)
-    #     df["popularity_score"] = df["popularity_score"].clip(0, 1)
-    #     df["completion_rate"] = df["completion_rate"].clip(0, 1)
-        
-    #     # Ajustement des valeurs qui pourraient être incohérentes
-    #     df["likes"] = df["likes"].fillna(0).astype(int)
-        
-    #     return df
     def _process_data(self, df: pd.DataFrame) -> pd.DataFrame:
-    """Traite les données brutes : conversion des types et calculs supplémentaires."""
-    # Conversion des colonnes nécessaires en type approprié
-    df["clear_rate"] = pd.to_numeric(df["clear_rate"], errors="coerce")  # Conversion avec gestion des erreurs
-    df["attempts"] = pd.to_numeric(df["attempts"], errors="coerce")
-    df["clears"] = pd.to_numeric(df["clears"], errors="coerce")
-    df["likes"] = pd.to_numeric(df["likes"], errors="coerce")
-    df["completion_rate"] = pd.to_numeric(df["completion_rate"], errors="coerce")
-    df["difficulty_score"] = pd.to_numeric(df["difficulty_score"], errors="coerce")
-    df["popularity_score"] = pd.to_numeric(df["popularity_score"], errors="coerce")
-    df["engagement_score"] = pd.to_numeric(df["engagement_score"], errors="coerce")
-    
-    # Calcul du taux de réussite (clear_rate) comme ratio de clears / attempts
-    if 'clears' in df.columns and 'attempts' in df.columns:
-        df["calculated_clear_rate"] = df["clears"] / df["attempts"] * 100
-        df["clear_rate"] = df["clear_rate"].fillna(df["calculated_clear_rate"])
-    else:
-        df["clear_rate"] = np.nan  # Valeur par défaut si la colonne est manquante
+        """Traite les données brutes : conversion des types et calculs supplémentaires."""
+        # Conversion des colonnes nécessaires en type approprié
+        df["clear_rate"] = pd.to_numeric(df["clear_rate"], errors="coerce")  # Conversion avec gestion des erreurs
+        df["attempts"] = pd.to_numeric(df["attempts"], errors="coerce")
+        df["clears"] = pd.to_numeric(df["clears"], errors="coerce")
+        df["likes"] = pd.to_numeric(df["likes"], errors="coerce")
+        df["completion_rate"] = pd.to_numeric(df["completion_rate"], errors="coerce")
+        df["difficulty_score"] = pd.to_numeric(df["difficulty_score"], errors="coerce")
+        df["popularity_score"] = pd.to_numeric(df["popularity_score"], errors="coerce")
+        df["engagement_score"] = pd.to_numeric(df["engagement_score"], errors="coerce")
+        
+        # Calcul du taux de réussite (clear_rate) comme ratio de clears / attempts
+        if 'clears' in df.columns and 'attempts' in df.columns:
+            df["calculated_clear_rate"] = df["clears"] / df["attempts"] * 100
+            df["clear_rate"] = df["clear_rate"].fillna(df["calculated_clear_rate"])
+        else:
+            df["clear_rate"] = np.nan  # Valeur par défaut si la colonne est manquante
 
-    # Normalisation de certaines métriques pour qu'elles soient sur une échelle de 0 à 1
-    df["difficulty_score"] = df["difficulty_score"].clip(0, 1)
-    df["engagement_score"] = df["engagement_score"].clip(0, 1)
-    df["popularity_score"] = df["popularity_score"].clip(0, 1)
-    df["completion_rate"] = df["completion_rate"].clip(0, 1)
-    
-    # Ajustement des valeurs qui pourraient être incohérentes
-    df["likes"] = df["likes"].fillna(0).astype(int)
-    
-    return df
+        # Normalisation de certaines métriques pour qu'elles soient sur une échelle de 0 à 1
+        df["difficulty_score"] = df["difficulty_score"].clip(0, 1)
+        df["engagement_score"] = df["engagement_score"].clip(0, 1)
+        df["popularity_score"] = df["popularity_score"].clip(0, 1)
+        df["completion_rate"] = df["completion_rate"].clip(0, 1)
+        
+        # Ajustement des valeurs qui pourraient être incohérentes
+        df["likes"] = df["likes"].fillna(0).astype(int)
+        
+        return df
 
 
 if __name__ == "__main__":
