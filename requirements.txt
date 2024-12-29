@@ -1,2 +1,8 @@
 plotly
 dash
+pandas
+numpy
+matplotlib
+azure-storage-blob
+requests
+mega.py

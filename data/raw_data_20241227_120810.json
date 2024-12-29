@@ -1,0 +1,1804 @@
+{
+  "levels": [
+    {
+      "level_id": "1a208dc5-2fe4-4341-a0e3-9d365f0da313",
+      "title": "Level 1",
+      "maker": "Player 1",
+      "difficulty": "easy",
+      "clear_rate": 58.87,
+      "attempts": 200,
+      "clears": 14,
+      "likes": 170,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.64,
+      "difficulty_score": 0.194,
+      "popularity_score": 0.032,
+      "engagement_score": 0.983
+    },
+    {
+      "level_id": "13639bc2-aac4-4d78-b4f3-47cd494028ff",
+      "title": "Level 2",
+      "maker": "Player 2",
+      "difficulty": "normal",
+      "clear_rate": 58.3,
+      "attempts": 183,
+      "clears": 72,
+      "likes": 366,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.621,
+      "difficulty_score": 0.002,
+      "popularity_score": 0.739,
+      "engagement_score": 0.099
+    },
+    {
+      "level_id": "68960c47-dc5f-4120-ba52-334947afa3dd",
+      "title": "Level 3",
+      "maker": "Player 3",
+      "difficulty": "hard",
+      "clear_rate": 31.15,
+      "attempts": 365,
+      "clears": 75,
+      "likes": 386,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.448,
+      "difficulty_score": 0.591,
+      "popularity_score": 0.087,
+      "engagement_score": 0.88
+    },
+    {
+      "level_id": "61d9e163-7629-4edb-87d5-acb2e29af46b",
+      "title": "Level 4",
+      "maker": "Player 4",
+      "difficulty": "expert",
+      "clear_rate": 25.39,
+      "attempts": 947,
+      "clears": 95,
+      "likes": 176,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.326,
+      "difficulty_score": 0.427,
+      "popularity_score": 0.937,
+      "engagement_score": 0.239
+    },
+    {
+      "level_id": "a2b165b9-cbee-4b4c-b21b-ec5f5e759394",
+      "title": "Level 5",
+      "maker": "Player 5",
+      "difficulty": "easy",
+      "clear_rate": 36.11,
+      "attempts": 203,
+      "clears": 88,
+      "likes": 178,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.651,
+      "difficulty_score": 0.762,
+      "popularity_score": 0.693,
+      "engagement_score": 0.614
+    },
+    {
+      "level_id": "8561e7fb-9070-4acb-a5d5-cbe2c070b854",
+      "title": "Level 6",
+      "maker": "Player 6",
+      "difficulty": "normal",
+      "clear_rate": 72.14,
+      "attempts": 98,
+      "clears": 59,
+      "likes": 440,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.652,
+      "difficulty_score": 0.635,
+      "popularity_score": 0.721,
+      "engagement_score": 0.173
+    },
+    {
+      "level_id": "a0f5eac2-f598-4a42-a104-52df5740c8cf",
+      "title": "Level 7",
+      "maker": "Player 7",
+      "difficulty": "hard",
+      "clear_rate": 49.91,
+      "attempts": 437,
+      "clears": 78,
+      "likes": 460,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.451,
+      "difficulty_score": 0.014,
+      "popularity_score": 0.088,
+      "engagement_score": 0.315
+    },
+    {
+      "level_id": "01c15dcb-3691-48f3-8e03-8d51ab51c98e",
+      "title": "Level 8",
+      "maker": "Player 8",
+      "difficulty": "expert",
+      "clear_rate": 47.91,
+      "attempts": 203,
+      "clears": 94,
+      "likes": 289,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.318,
+      "difficulty_score": 0.284,
+      "popularity_score": 0.023,
+      "engagement_score": 0.071
+    },
+    {
+      "level_id": "c9260fe7-c46d-4d05-841a-27c16c75a9ae",
+      "title": "Level 9",
+      "maker": "Player 9",
+      "difficulty": "easy",
+      "clear_rate": 72.88,
+      "attempts": 723,
+      "clears": 5,
+      "likes": 481,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.796,
+      "difficulty_score": 0.198,
+      "popularity_score": 0.718,
+      "engagement_score": 0.084
+    },
+    {
+      "level_id": "9d6da14d-8c8c-4292-8567-7094160fbbbd",
+      "title": "Level 10",
+      "maker": "Player 10",
+      "difficulty": "normal",
+      "clear_rate": 66.09,
+      "attempts": 91,
+      "clears": 83,
+      "likes": 411,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.701,
+      "difficulty_score": 0.84,
+      "popularity_score": 0.094,
+      "engagement_score": 0.228
+    },
+    {
+      "level_id": "a56a31eb-8d76-4ef1-92a4-d69ae40dc8fc",
+      "title": "Level 11",
+      "maker": "Player 1",
+      "difficulty": "hard",
+      "clear_rate": 60.07,
+      "attempts": 237,
+      "clears": 50,
+      "likes": 18,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.181,
+      "difficulty_score": 0.154,
+      "popularity_score": 0.455,
+      "engagement_score": 0.617
+    },
+    {
+      "level_id": "6692d500-b5b0-4c0d-9654-c34034f747bf",
+      "title": "Level 12",
+      "maker": "Player 2",
+      "difficulty": "expert",
+      "clear_rate": 73.42,
+      "attempts": 685,
+      "clears": 32,
+      "likes": 59,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.291,
+      "difficulty_score": 0.374,
+      "popularity_score": 0.492,
+      "engagement_score": 0.066
+    },
+    {
+      "level_id": "2f10b982-86c3-466c-8532-986bfc72083d",
+      "title": "Level 13",
+      "maker": "Player 3",
+      "difficulty": "easy",
+      "clear_rate": 94.55,
+      "attempts": 641,
+      "clears": 78,
+      "likes": 217,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.523,
+      "difficulty_score": 0.429,
+      "popularity_score": 0.555,
+      "engagement_score": 0.924
+    },
+    {
+      "level_id": "40bdf609-c607-47e3-a6eb-930f11ce729f",
+      "title": "Level 14",
+      "maker": "Player 4",
+      "difficulty": "normal",
+      "clear_rate": 55.69,
+      "attempts": 874,
+      "clears": 96,
+      "likes": 299,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.853,
+      "difficulty_score": 0.205,
+      "popularity_score": 0.877,
+      "engagement_score": 0.683
+    },
+    {
+      "level_id": "2272236a-9a80-4a53-9453-f9aeb066054c",
+      "title": "Level 15",
+      "maker": "Player 5",
+      "difficulty": "hard",
+      "clear_rate": 64.34,
+      "attempts": 540,
+      "clears": 28,
+      "likes": 172,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.064,
+      "difficulty_score": 0.76,
+      "popularity_score": 0.83,
+      "engagement_score": 0.502
+    },
+    {
+      "level_id": "43cee55a-4505-4f4d-90ef-ddec77accc2c",
+      "title": "Level 16",
+      "maker": "Player 6",
+      "difficulty": "expert",
+      "clear_rate": 68.84,
+      "attempts": 979,
+      "clears": 4,
+      "likes": 29,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.486,
+      "difficulty_score": 0.353,
+      "popularity_score": 0.017,
+      "engagement_score": 0.35
+    },
+    {
+      "level_id": "f4842549-6f7f-4d68-9e64-ac19dfa46c5f",
+      "title": "Level 17",
+      "maker": "Player 7",
+      "difficulty": "easy",
+      "clear_rate": 55.73,
+      "attempts": 533,
+      "clears": 55,
+      "likes": 484,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.265,
+      "difficulty_score": 0.874,
+      "popularity_score": 0.755,
+      "engagement_score": 0.096
+    },
+    {
+      "level_id": "6d240d35-330d-4f41-86aa-bc2826d54586",
+      "title": "Level 18",
+      "maker": "Player 8",
+      "difficulty": "normal",
+      "clear_rate": 13.73,
+      "attempts": 304,
+      "clears": 46,
+      "likes": 386,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.169,
+      "difficulty_score": 0.33,
+      "popularity_score": 0.812,
+      "engagement_score": 0.923
+    },
+    {
+      "level_id": "d154529e-4e73-408c-99ba-35e01294b4d3",
+      "title": "Level 19",
+      "maker": "Player 9",
+      "difficulty": "hard",
+      "clear_rate": 14.5,
+      "attempts": 558,
+      "clears": 7,
+      "likes": 418,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.232,
+      "difficulty_score": 0.627,
+      "popularity_score": 0.751,
+      "engagement_score": 0.854
+    },
+    {
+      "level_id": "bb5dc57d-89f1-441d-9a40-6b9cf7eb2292",
+      "title": "Level 20",
+      "maker": "Player 10",
+      "difficulty": "expert",
+      "clear_rate": 15.21,
+      "attempts": 356,
+      "clears": 78,
+      "likes": 93,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.574,
+      "difficulty_score": 0.907,
+      "popularity_score": 0.888,
+      "engagement_score": 0.607
+    },
+    {
+      "level_id": "ab32f999-3e84-4c32-be25-47e2b3151bd8",
+      "title": "Level 21",
+      "maker": "Player 1",
+      "difficulty": "easy",
+      "clear_rate": 92.37,
+      "attempts": 50,
+      "clears": 37,
+      "likes": 410,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.53,
+      "difficulty_score": 0.493,
+      "popularity_score": 0.566,
+      "engagement_score": 0.811
+    },
+    {
+      "level_id": "a4bc7b66-2b9f-4ded-ab5f-02a5361a500e",
+      "title": "Level 22",
+      "maker": "Player 2",
+      "difficulty": "normal",
+      "clear_rate": 41.03,
+      "attempts": 30,
+      "clears": 66,
+      "likes": 318,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.388,
+      "difficulty_score": 0.921,
+      "popularity_score": 0.906,
+      "engagement_score": 0.645
+    },
+    {
+      "level_id": "3fedcb70-af69-4a55-bce6-7ecaf1f94b96",
+      "title": "Level 23",
+      "maker": "Player 3",
+      "difficulty": "hard",
+      "clear_rate": 10.42,
+      "attempts": 861,
+      "clears": 73,
+      "likes": 209,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.656,
+      "difficulty_score": 0.907,
+      "popularity_score": 0.122,
+      "engagement_score": 0.489
+    },
+    {
+      "level_id": "77b78848-521a-409f-9740-6c7fe3d5346f",
+      "title": "Level 24",
+      "maker": "Player 4",
+      "difficulty": "expert",
+      "clear_rate": 98.18,
+      "attempts": 716,
+      "clears": 21,
+      "likes": 36,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.601,
+      "difficulty_score": 0.709,
+      "popularity_score": 0.747,
+      "engagement_score": 0.822
+    },
+    {
+      "level_id": "35b1a7ed-0f0b-4b98-9a8c-873d524d6676",
+      "title": "Level 25",
+      "maker": "Player 5",
+      "difficulty": "easy",
+      "clear_rate": 48.75,
+      "attempts": 842,
+      "clears": 71,
+      "likes": 51,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.684,
+      "difficulty_score": 0.838,
+      "popularity_score": 0.09,
+      "engagement_score": 0.046
+    },
+    {
+      "level_id": "ee2dbffb-b5de-4968-9d76-8b219912a9bb",
+      "title": "Level 26",
+      "maker": "Player 6",
+      "difficulty": "normal",
+      "clear_rate": 36.01,
+      "attempts": 734,
+      "clears": 12,
+      "likes": 160,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.581,
+      "difficulty_score": 0.969,
+      "popularity_score": 0.22,
+      "engagement_score": 0.667
+    },
+    {
+      "level_id": "06849965-8a40-45b6-89d9-90184b6e12e2",
+      "title": "Level 27",
+      "maker": "Player 7",
+      "difficulty": "hard",
+      "clear_rate": 1.83,
+      "attempts": 154,
+      "clears": 4,
+      "likes": 438,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.417,
+      "difficulty_score": 0.848,
+      "popularity_score": 0.587,
+      "engagement_score": 0.264
+    },
+    {
+      "level_id": "667ecbf6-37b9-4670-b898-76f0586385e4",
+      "title": "Level 28",
+      "maker": "Player 8",
+      "difficulty": "expert",
+      "clear_rate": 65.65,
+      "attempts": 580,
+      "clears": 15,
+      "likes": 137,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.43,
+      "difficulty_score": 0.925,
+      "popularity_score": 0.255,
+      "engagement_score": 0.642
+    },
+    {
+      "level_id": "aaad912b-58b8-4bbf-aad6-4215102883ff",
+      "title": "Level 29",
+      "maker": "Player 9",
+      "difficulty": "easy",
+      "clear_rate": 42.48,
+      "attempts": 687,
+      "clears": 75,
+      "likes": 288,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.456,
+      "difficulty_score": 0.635,
+      "popularity_score": 0.507,
+      "engagement_score": 0.399
+    },
+    {
+      "level_id": "65b6fba8-f410-440b-b615-17b4e9ce957f",
+      "title": "Level 30",
+      "maker": "Player 10",
+      "difficulty": "normal",
+      "clear_rate": 51.23,
+      "attempts": 957,
+      "clears": 10,
+      "likes": 121,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.768,
+      "difficulty_score": 0.536,
+      "popularity_score": 0.129,
+      "engagement_score": 0.716
+    },
+    {
+      "level_id": "327bb203-ed82-4c8e-877d-b716fa1a914b",
+      "title": "Level 31",
+      "maker": "Player 1",
+      "difficulty": "hard",
+      "clear_rate": 54.25,
+      "attempts": 784,
+      "clears": 32,
+      "likes": 82,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.295,
+      "difficulty_score": 0.802,
+      "popularity_score": 0.622,
+      "engagement_score": 0.051
+    },
+    {
+      "level_id": "7abc125b-8234-4ce2-8ae7-ccc7e5d4a35d",
+      "title": "Level 32",
+      "maker": "Player 2",
+      "difficulty": "expert",
+      "clear_rate": 48.03,
+      "attempts": 346,
+      "clears": 83,
+      "likes": 372,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.838,
+      "difficulty_score": 0.017,
+      "popularity_score": 0.769,
+      "engagement_score": 0.789
+    },
+    {
+      "level_id": "3957f373-cd33-4ced-83ae-28b0f9e04877",
+      "title": "Level 33",
+      "maker": "Player 3",
+      "difficulty": "easy",
+      "clear_rate": 16.05,
+      "attempts": 547,
+      "clears": 5,
+      "likes": 351,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.305,
+      "difficulty_score": 0.349,
+      "popularity_score": 0.33,
+      "engagement_score": 0.077
+    },
+    {
+      "level_id": "cf72224a-6e06-490c-8922-aec61f95a4dd",
+      "title": "Level 34",
+      "maker": "Player 4",
+      "difficulty": "normal",
+      "clear_rate": 59.34,
+      "attempts": 392,
+      "clears": 91,
+      "likes": 443,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.263,
+      "difficulty_score": 0.21,
+      "popularity_score": 0.249,
+      "engagement_score": 0.43
+    },
+    {
+      "level_id": "8aacacb7-782a-44de-8362-982308bd5d9d",
+      "title": "Level 35",
+      "maker": "Player 5",
+      "difficulty": "hard",
+      "clear_rate": 27.47,
+      "attempts": 92,
+      "clears": 8,
+      "likes": 120,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.915,
+      "difficulty_score": 0.404,
+      "popularity_score": 0.04,
+      "engagement_score": 0.01
+    },
+    {
+      "level_id": "ebc66077-6597-4e89-ba50-6eac00960d19",
+      "title": "Level 36",
+      "maker": "Player 6",
+      "difficulty": "expert",
+      "clear_rate": 88.57,
+      "attempts": 549,
+      "clears": 50,
+      "likes": 340,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.187,
+      "difficulty_score": 0.118,
+      "popularity_score": 0.15,
+      "engagement_score": 0.377
+    },
+    {
+      "level_id": "82847a1a-6083-4cef-9db1-341b3b53e240",
+      "title": "Level 37",
+      "maker": "Player 7",
+      "difficulty": "easy",
+      "clear_rate": 68.95,
+      "attempts": 483,
+      "clears": 74,
+      "likes": 260,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.124,
+      "difficulty_score": 0.529,
+      "popularity_score": 0.537,
+      "engagement_score": 0.158
+    },
+    {
+      "level_id": "207d7424-c742-4f37-96b8-034db6fecb75",
+      "title": "Level 38",
+      "maker": "Player 8",
+      "difficulty": "normal",
+      "clear_rate": 34.66,
+      "attempts": 567,
+      "clears": 96,
+      "likes": 63,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.881,
+      "difficulty_score": 0.502,
+      "popularity_score": 0.619,
+      "engagement_score": 0.276
+    },
+    {
+      "level_id": "3aa988cc-98ff-419e-85ad-4b3bc91d3223",
+      "title": "Level 39",
+      "maker": "Player 9",
+      "difficulty": "hard",
+      "clear_rate": 61.38,
+      "attempts": 27,
+      "clears": 14,
+      "likes": 241,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.245,
+      "difficulty_score": 0.366,
+      "popularity_score": 0.466,
+      "engagement_score": 0.083
+    },
+    {
+      "level_id": "fbb68386-1ee0-4b93-a90d-f7249bef9cb3",
+      "title": "Level 40",
+      "maker": "Player 10",
+      "difficulty": "expert",
+      "clear_rate": 53.36,
+      "attempts": 712,
+      "clears": 11,
+      "likes": 309,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.109,
+      "difficulty_score": 0.133,
+      "popularity_score": 0.709,
+      "engagement_score": 0.6
+    },
+    {
+      "level_id": "c9c38bb7-dda1-4de4-a327-80ce85319e80",
+      "title": "Level 41",
+      "maker": "Player 1",
+      "difficulty": "easy",
+      "clear_rate": 92.67,
+      "attempts": 373,
+      "clears": 23,
+      "likes": 351,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.44,
+      "difficulty_score": 0.386,
+      "popularity_score": 0.215,
+      "engagement_score": 0.847
+    },
+    {
+      "level_id": "903e2490-e310-49ef-9e5d-88f0723e71c9",
+      "title": "Level 42",
+      "maker": "Player 2",
+      "difficulty": "normal",
+      "clear_rate": 52.37,
+      "attempts": 739,
+      "clears": 47,
+      "likes": 374,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.2,
+      "difficulty_score": 0.96,
+      "popularity_score": 0.361,
+      "engagement_score": 0.937
+    },
+    {
+      "level_id": "10403337-7b9c-49d3-a499-91b0b5339913",
+      "title": "Level 43",
+      "maker": "Player 3",
+      "difficulty": "hard",
+      "clear_rate": 75.37,
+      "attempts": 796,
+      "clears": 98,
+      "likes": 95,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.546,
+      "difficulty_score": 0.512,
+      "popularity_score": 0.681,
+      "engagement_score": 0.911
+    },
+    {
+      "level_id": "3a290798-310d-48eb-9c27-04d6be1ed835",
+      "title": "Level 44",
+      "maker": "Player 4",
+      "difficulty": "expert",
+      "clear_rate": 75.67,
+      "attempts": 967,
+      "clears": 46,
+      "likes": 376,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.094,
+      "difficulty_score": 0.664,
+      "popularity_score": 0.012,
+      "engagement_score": 0.043
+    },
+    {
+      "level_id": "8d75369d-8718-4abf-9283-9416b3e26ab0",
+      "title": "Level 45",
+      "maker": "Player 5",
+      "difficulty": "easy",
+      "clear_rate": 96.1,
+      "attempts": 189,
+      "clears": 82,
+      "likes": 90,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.949,
+      "difficulty_score": 0.18,
+      "popularity_score": 0.663,
+      "engagement_score": 0.02
+    },
+    {
+      "level_id": "f08a9b2f-c09f-4bb3-9738-a0111ec71538",
+      "title": "Level 46",
+      "maker": "Player 6",
+      "difficulty": "normal",
+      "clear_rate": 77.76,
+      "attempts": 840,
+      "clears": 46,
+      "likes": 345,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.604,
+      "difficulty_score": 0.585,
+      "popularity_score": 0.205,
+      "engagement_score": 0.063
+    },
+    {
+      "level_id": "cd02be8d-a588-4553-822b-2d8a2b8c8d88",
+      "title": "Level 47",
+      "maker": "Player 7",
+      "difficulty": "hard",
+      "clear_rate": 29.26,
+      "attempts": 321,
+      "clears": 14,
+      "likes": 3,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.073,
+      "difficulty_score": 0.157,
+      "popularity_score": 0.122,
+      "engagement_score": 0.267
+    },
+    {
+      "level_id": "35017706-f74c-448a-8305-919fa7b336f5",
+      "title": "Level 48",
+      "maker": "Player 8",
+      "difficulty": "expert",
+      "clear_rate": 42.41,
+      "attempts": 794,
+      "clears": 17,
+      "likes": 375,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.212,
+      "difficulty_score": 0.797,
+      "popularity_score": 0.291,
+      "engagement_score": 0.381
+    },
+    {
+      "level_id": "8d1c2759-eea0-4a3b-bd3f-84b96e46f36f",
+      "title": "Level 49",
+      "maker": "Player 9",
+      "difficulty": "easy",
+      "clear_rate": 61.13,
+      "attempts": 248,
+      "clears": 4,
+      "likes": 226,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.688,
+      "difficulty_score": 0.715,
+      "popularity_score": 0.329,
+      "engagement_score": 0.33
+    },
+    {
+      "level_id": "c174551a-38c6-4e87-a23f-b3156839fe5c",
+      "title": "Level 50",
+      "maker": "Player 10",
+      "difficulty": "normal",
+      "clear_rate": 94.6,
+      "attempts": 632,
+      "clears": 73,
+      "likes": 265,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.632,
+      "difficulty_score": 0.646,
+      "popularity_score": 0.883,
+      "engagement_score": 0.115
+    },
+    {
+      "level_id": "b279eec5-48d2-4d4c-94b9-61a07c38efab",
+      "title": "Level 51",
+      "maker": "Player 1",
+      "difficulty": "hard",
+      "clear_rate": 36.83,
+      "attempts": 242,
+      "clears": 89,
+      "likes": 243,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.601,
+      "difficulty_score": 0.615,
+      "popularity_score": 0.18,
+      "engagement_score": 0.493
+    },
+    {
+      "level_id": "c6ccc977-f6f0-490b-908e-9fb3c41183af",
+      "title": "Level 52",
+      "maker": "Player 2",
+      "difficulty": "expert",
+      "clear_rate": 32.0,
+      "attempts": 351,
+      "clears": 77,
+      "likes": 130,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.186,
+      "difficulty_score": 0.166,
+      "popularity_score": 0.662,
+      "engagement_score": 0.718
+    },
+    {
+      "level_id": "c2cf73da-f63b-4e0a-b159-c92e5a37d152",
+      "title": "Level 53",
+      "maker": "Player 3",
+      "difficulty": "easy",
+      "clear_rate": 21.23,
+      "attempts": 572,
+      "clears": 60,
+      "likes": 362,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.09,
+      "difficulty_score": 0.964,
+      "popularity_score": 0.847,
+      "engagement_score": 0.125
+    },
+    {
+      "level_id": "feab764a-2a43-43d1-aff7-fb07c35b7c5b",
+      "title": "Level 54",
+      "maker": "Player 4",
+      "difficulty": "normal",
+      "clear_rate": 35.32,
+      "attempts": 210,
+      "clears": 78,
+      "likes": 133,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.705,
+      "difficulty_score": 0.233,
+      "popularity_score": 0.046,
+      "engagement_score": 0.601
+    },
+    {
+      "level_id": "4544e463-7851-45b9-b998-2172d55f6fdc",
+      "title": "Level 55",
+      "maker": "Player 5",
+      "difficulty": "hard",
+      "clear_rate": 19.07,
+      "attempts": 25,
+      "clears": 34,
+      "likes": 193,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.395,
+      "difficulty_score": 0.993,
+      "popularity_score": 0.997,
+      "engagement_score": 0.262
+    },
+    {
+      "level_id": "0fd9bbb7-7091-43d0-a005-ce2a0d75c907",
+      "title": "Level 56",
+      "maker": "Player 6",
+      "difficulty": "expert",
+      "clear_rate": 19.1,
+      "attempts": 135,
+      "clears": 7,
+      "likes": 171,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.461,
+      "difficulty_score": 0.429,
+      "popularity_score": 0.148,
+      "engagement_score": 0.25
+    },
+    {
+      "level_id": "69b958d6-9cb8-44b8-a39d-1ba0009ae92d",
+      "title": "Level 57",
+      "maker": "Player 7",
+      "difficulty": "easy",
+      "clear_rate": 74.02,
+      "attempts": 551,
+      "clears": 1,
+      "likes": 290,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.883,
+      "difficulty_score": 0.18,
+      "popularity_score": 0.666,
+      "engagement_score": 0.116
+    },
+    {
+      "level_id": "c580241e-2e70-4f16-9494-e3023e127348",
+      "title": "Level 58",
+      "maker": "Player 8",
+      "difficulty": "normal",
+      "clear_rate": 82.23,
+      "attempts": 163,
+      "clears": 5,
+      "likes": 265,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.399,
+      "difficulty_score": 0.869,
+      "popularity_score": 0.265,
+      "engagement_score": 0.359
+    },
+    {
+      "level_id": "79f89414-6200-4d33-92c4-c03418a02baa",
+      "title": "Level 59",
+      "maker": "Player 9",
+      "difficulty": "hard",
+      "clear_rate": 84.45,
+      "attempts": 137,
+      "clears": 7,
+      "likes": 413,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.559,
+      "difficulty_score": 0.281,
+      "popularity_score": 0.304,
+      "engagement_score": 0.847
+    },
+    {
+      "level_id": "f49431ac-a164-4c46-a269-54de4cd062e2",
+      "title": "Level 60",
+      "maker": "Player 10",
+      "difficulty": "expert",
+      "clear_rate": 53.1,
+      "attempts": 136,
+      "clears": 40,
+      "likes": 14,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.484,
+      "difficulty_score": 0.035,
+      "popularity_score": 0.917,
+      "engagement_score": 0.53
+    },
+    {
+      "level_id": "23ee9215-8274-422b-b468-d000b279c97b",
+      "title": "Level 61",
+      "maker": "Player 1",
+      "difficulty": "easy",
+      "clear_rate": 49.07,
+      "attempts": 229,
+      "clears": 80,
+      "likes": 186,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.7,
+      "difficulty_score": 0.432,
+      "popularity_score": 0.339,
+      "engagement_score": 0.897
+    },
+    {
+      "level_id": "71b5602c-c4ea-414d-946a-8e1915c8c9fc",
+      "title": "Level 62",
+      "maker": "Player 2",
+      "difficulty": "normal",
+      "clear_rate": 92.08,
+      "attempts": 847,
+      "clears": 70,
+      "likes": 185,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.31,
+      "difficulty_score": 0.75,
+      "popularity_score": 0.989,
+      "engagement_score": 0.09
+    },
+    {
+      "level_id": "f1b3ef5e-daca-4b20-ad1b-5156ca5c94e6",
+      "title": "Level 63",
+      "maker": "Player 3",
+      "difficulty": "hard",
+      "clear_rate": 61.13,
+      "attempts": 131,
+      "clears": 1,
+      "likes": 95,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.318,
+      "difficulty_score": 0.715,
+      "popularity_score": 0.052,
+      "engagement_score": 0.404
+    },
+    {
+      "level_id": "7687fd28-52db-4b93-a39c-e2fbe7f385cb",
+      "title": "Level 64",
+      "maker": "Player 4",
+      "difficulty": "expert",
+      "clear_rate": 61.37,
+      "attempts": 727,
+      "clears": 53,
+      "likes": 263,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.002,
+      "difficulty_score": 0.845,
+      "popularity_score": 0.89,
+      "engagement_score": 0.699
+    },
+    {
+      "level_id": "3b4741a5-2164-4db3-ad01-9e721453d6db",
+      "title": "Level 65",
+      "maker": "Player 5",
+      "difficulty": "easy",
+      "clear_rate": 38.07,
+      "attempts": 414,
+      "clears": 89,
+      "likes": 445,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.82,
+      "difficulty_score": 0.043,
+      "popularity_score": 0.566,
+      "engagement_score": 0.371
+    },
+    {
+      "level_id": "98a5dfdd-1576-483f-b1db-77b1d9671b21",
+      "title": "Level 66",
+      "maker": "Player 6",
+      "difficulty": "normal",
+      "clear_rate": 47.01,
+      "attempts": 344,
+      "clears": 22,
+      "likes": 276,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.055,
+      "difficulty_score": 0.663,
+      "popularity_score": 0.166,
+      "engagement_score": 0.241
+    },
+    {
+      "level_id": "e40b2b88-6c81-4973-8321-6eed51a9a7cd",
+      "title": "Level 67",
+      "maker": "Player 7",
+      "difficulty": "hard",
+      "clear_rate": 35.75,
+      "attempts": 234,
+      "clears": 12,
+      "likes": 214,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.694,
+      "difficulty_score": 0.916,
+      "popularity_score": 0.551,
+      "engagement_score": 0.557
+    },
+    {
+      "level_id": "ed927c36-bdd5-4aa6-94b2-4a2c68cf7397",
+      "title": "Level 68",
+      "maker": "Player 8",
+      "difficulty": "expert",
+      "clear_rate": 83.24,
+      "attempts": 250,
+      "clears": 10,
+      "likes": 444,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.545,
+      "difficulty_score": 0.059,
+      "popularity_score": 0.697,
+      "engagement_score": 0.552
+    },
+    {
+      "level_id": "a3ec90b7-ac79-41f4-a026-7c8ceaf52c69",
+      "title": "Level 69",
+      "maker": "Player 9",
+      "difficulty": "easy",
+      "clear_rate": 26.22,
+      "attempts": 346,
+      "clears": 66,
+      "likes": 278,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.188,
+      "difficulty_score": 0.315,
+      "popularity_score": 0.188,
+      "engagement_score": 0.371
+    },
+    {
+      "level_id": "9454b225-6a21-41df-8325-dbed83aed766",
+      "title": "Level 70",
+      "maker": "Player 10",
+      "difficulty": "normal",
+      "clear_rate": 90.44,
+      "attempts": 17,
+      "clears": 89,
+      "likes": 463,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.514,
+      "difficulty_score": 0.735,
+      "popularity_score": 0.386,
+      "engagement_score": 0.455
+    },
+    {
+      "level_id": "bbf81dc2-700f-4c23-b720-9d0b0a449e1d",
+      "title": "Level 71",
+      "maker": "Player 1",
+      "difficulty": "hard",
+      "clear_rate": 51.26,
+      "attempts": 560,
+      "clears": 52,
+      "likes": 37,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.648,
+      "difficulty_score": 0.145,
+      "popularity_score": 0.388,
+      "engagement_score": 0.47
+    },
+    {
+      "level_id": "121dc27e-97db-4dc9-8436-82fb593658dd",
+      "title": "Level 72",
+      "maker": "Player 2",
+      "difficulty": "expert",
+      "clear_rate": 55.83,
+      "attempts": 954,
+      "clears": 21,
+      "likes": 95,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.828,
+      "difficulty_score": 0.568,
+      "popularity_score": 0.637,
+      "engagement_score": 0.156
+    },
+    {
+      "level_id": "10a19651-f56b-469c-9d86-52f079b8d5cb",
+      "title": "Level 73",
+      "maker": "Player 3",
+      "difficulty": "easy",
+      "clear_rate": 6.83,
+      "attempts": 41,
+      "clears": 55,
+      "likes": 99,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.369,
+      "difficulty_score": 0.333,
+      "popularity_score": 0.796,
+      "engagement_score": 1.0
+    },
+    {
+      "level_id": "e8d4e602-e60f-40ac-a320-69da859d6dc8",
+      "title": "Level 74",
+      "maker": "Player 4",
+      "difficulty": "normal",
+      "clear_rate": 74.36,
+      "attempts": 775,
+      "clears": 4,
+      "likes": 492,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.965,
+      "difficulty_score": 0.716,
+      "popularity_score": 0.127,
+      "engagement_score": 0.218
+    },
+    {
+      "level_id": "4d015745-877b-4374-8177-57394831e128",
+      "title": "Level 75",
+      "maker": "Player 5",
+      "difficulty": "hard",
+      "clear_rate": 81.1,
+      "attempts": 522,
+      "clears": 71,
+      "likes": 21,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.992,
+      "difficulty_score": 0.514,
+      "popularity_score": 0.327,
+      "engagement_score": 0.271
+    },
+    {
+      "level_id": "e0c42127-f808-41ba-a456-10060ea6d0e0",
+      "title": "Level 76",
+      "maker": "Player 6",
+      "difficulty": "expert",
+      "clear_rate": 95.12,
+      "attempts": 828,
+      "clears": 75,
+      "likes": 54,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.273,
+      "difficulty_score": 0.625,
+      "popularity_score": 0.188,
+      "engagement_score": 0.609
+    },
+    {
+      "level_id": "927e41be-f7b8-4cd5-8f90-8248e7eb422a",
+      "title": "Level 77",
+      "maker": "Player 7",
+      "difficulty": "easy",
+      "clear_rate": 55.07,
+      "attempts": 163,
+      "clears": 55,
+      "likes": 33,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.599,
+      "difficulty_score": 0.722,
+      "popularity_score": 0.002,
+      "engagement_score": 0.348
+    },
+    {
+      "level_id": "970caca2-8d70-47b9-82af-462a822a1ff3",
+      "title": "Level 78",
+      "maker": "Player 8",
+      "difficulty": "normal",
+      "clear_rate": 8.31,
+      "attempts": 56,
+      "clears": 27,
+      "likes": 54,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.989,
+      "difficulty_score": 0.784,
+      "popularity_score": 0.886,
+      "engagement_score": 0.483
+    },
+    {
+      "level_id": "2c37a630-8815-48f9-9936-9273031c8592",
+      "title": "Level 79",
+      "maker": "Player 9",
+      "difficulty": "hard",
+      "clear_rate": 61.71,
+      "attempts": 740,
+      "clears": 15,
+      "likes": 6,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.081,
+      "difficulty_score": 0.136,
+      "popularity_score": 0.417,
+      "engagement_score": 0.866
+    },
+    {
+      "level_id": "ee5d078f-7d00-42f9-afe8-0ef5fa3de2b1",
+      "title": "Level 80",
+      "maker": "Player 10",
+      "difficulty": "expert",
+      "clear_rate": 0.08,
+      "attempts": 925,
+      "clears": 36,
+      "likes": 304,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.362,
+      "difficulty_score": 0.188,
+      "popularity_score": 0.377,
+      "engagement_score": 0.185
+    },
+    {
+      "level_id": "20f25ff9-bdc8-4fe2-83fe-c7e4e8623f99",
+      "title": "Level 81",
+      "maker": "Player 1",
+      "difficulty": "easy",
+      "clear_rate": 64.18,
+      "attempts": 983,
+      "clears": 44,
+      "likes": 145,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.719,
+      "difficulty_score": 0.782,
+      "popularity_score": 0.312,
+      "engagement_score": 0.957
+    },
+    {
+      "level_id": "e9dc377c-8418-4670-931c-3df6bf48e841",
+      "title": "Level 82",
+      "maker": "Player 2",
+      "difficulty": "normal",
+      "clear_rate": 50.85,
+      "attempts": 455,
+      "clears": 11,
+      "likes": 74,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.578,
+      "difficulty_score": 0.936,
+      "popularity_score": 0.282,
+      "engagement_score": 0.208
+    },
+    {
+      "level_id": "fe9191e0-0e48-4b29-8f10-4a69676f98e4",
+      "title": "Level 83",
+      "maker": "Player 3",
+      "difficulty": "hard",
+      "clear_rate": 65.24,
+      "attempts": 505,
+      "clears": 53,
+      "likes": 424,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.909,
+      "difficulty_score": 0.596,
+      "popularity_score": 0.263,
+      "engagement_score": 0.273
+    },
+    {
+      "level_id": "9aedcc81-d60c-4686-9152-5c29c17738ec",
+      "title": "Level 84",
+      "maker": "Player 4",
+      "difficulty": "expert",
+      "clear_rate": 3.82,
+      "attempts": 188,
+      "clears": 63,
+      "likes": 148,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.903,
+      "difficulty_score": 0.672,
+      "popularity_score": 0.701,
+      "engagement_score": 0.351
+    },
+    {
+      "level_id": "b4ba2f44-2be9-423c-bf19-20c0b5d586f3",
+      "title": "Level 85",
+      "maker": "Player 5",
+      "difficulty": "easy",
+      "clear_rate": 69.43,
+      "attempts": 699,
+      "clears": 15,
+      "likes": 73,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.398,
+      "difficulty_score": 0.22,
+      "popularity_score": 0.982,
+      "engagement_score": 0.9
+    },
+    {
+      "level_id": "60d25f7b-a26e-4b7c-b477-e7a8016a1062",
+      "title": "Level 86",
+      "maker": "Player 6",
+      "difficulty": "normal",
+      "clear_rate": 40.23,
+      "attempts": 547,
+      "clears": 38,
+      "likes": 48,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.625,
+      "difficulty_score": 0.571,
+      "popularity_score": 0.268,
+      "engagement_score": 0.998
+    },
+    {
+      "level_id": "8dba0d8e-29a5-4658-a72a-3a648b1fc85e",
+      "title": "Level 87",
+      "maker": "Player 7",
+      "difficulty": "hard",
+      "clear_rate": 89.16,
+      "attempts": 628,
+      "clears": 41,
+      "likes": 60,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.77,
+      "difficulty_score": 0.114,
+      "popularity_score": 0.209,
+      "engagement_score": 0.631
+    },
+    {
+      "level_id": "c8f194ac-a176-4aca-a0d1-3d60b86820dd",
+      "title": "Level 88",
+      "maker": "Player 8",
+      "difficulty": "expert",
+      "clear_rate": 48.11,
+      "attempts": 27,
+      "clears": 76,
+      "likes": 150,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.81,
+      "difficulty_score": 0.952,
+      "popularity_score": 0.062,
+      "engagement_score": 0.824
+    },
+    {
+      "level_id": "12f661f7-d15b-4e5a-b5d8-55e46116051a",
+      "title": "Level 89",
+      "maker": "Player 9",
+      "difficulty": "easy",
+      "clear_rate": 90.33,
+      "attempts": 37,
+      "clears": 78,
+      "likes": 60,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.922,
+      "difficulty_score": 0.754,
+      "popularity_score": 0.373,
+      "engagement_score": 0.553
+    },
+    {
+      "level_id": "6ca1a410-4245-4f73-a4a8-8558f8fe40e3",
+      "title": "Level 90",
+      "maker": "Player 10",
+      "difficulty": "normal",
+      "clear_rate": 10.51,
+      "attempts": 108,
+      "clears": 80,
+      "likes": 161,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.419,
+      "difficulty_score": 0.876,
+      "popularity_score": 0.615,
+      "engagement_score": 0.966
+    },
+    {
+      "level_id": "bb5d302d-d5b0-49e8-88fe-03536f218612",
+      "title": "Level 91",
+      "maker": "Player 1",
+      "difficulty": "hard",
+      "clear_rate": 41.3,
+      "attempts": 603,
+      "clears": 3,
+      "likes": 315,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.316,
+      "difficulty_score": 0.737,
+      "popularity_score": 0.694,
+      "engagement_score": 0.865
+    },
+    {
+      "level_id": "ba5ee148-3e2d-4369-9498-4e98ce3c478f",
+      "title": "Level 92",
+      "maker": "Player 2",
+      "difficulty": "expert",
+      "clear_rate": 82.38,
+      "attempts": 905,
+      "clears": 13,
+      "likes": 172,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.945,
+      "difficulty_score": 0.246,
+      "popularity_score": 0.934,
+      "engagement_score": 0.002
+    },
+    {
+      "level_id": "6497212c-a109-49e3-bc8b-3337acc0327a",
+      "title": "Level 93",
+      "maker": "Player 3",
+      "difficulty": "easy",
+      "clear_rate": 73.86,
+      "attempts": 920,
+      "clears": 88,
+      "likes": 287,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.786,
+      "difficulty_score": 0.954,
+      "popularity_score": 0.544,
+      "engagement_score": 0.676
+    },
+    {
+      "level_id": "d72af0c5-97b1-4c4d-bd60-a916b69ccb7e",
+      "title": "Level 94",
+      "maker": "Player 4",
+      "difficulty": "normal",
+      "clear_rate": 13.94,
+      "attempts": 668,
+      "clears": 32,
+      "likes": 363,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.798,
+      "difficulty_score": 0.399,
+      "popularity_score": 0.08,
+      "engagement_score": 0.227
+    },
+    {
+      "level_id": "68851bb7-42db-4a7b-aeae-86c19fcf5fd6",
+      "title": "Level 95",
+      "maker": "Player 5",
+      "difficulty": "hard",
+      "clear_rate": 97.1,
+      "attempts": 720,
+      "clears": 3,
+      "likes": 411,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.543,
+      "difficulty_score": 0.274,
+      "popularity_score": 0.382,
+      "engagement_score": 0.875
+    },
+    {
+      "level_id": "b2a60b75-9d81-49dd-87b6-8aaa9f336621",
+      "title": "Level 96",
+      "maker": "Player 6",
+      "difficulty": "expert",
+      "clear_rate": 38.48,
+      "attempts": 448,
+      "clears": 94,
+      "likes": 157,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.902,
+      "difficulty_score": 0.549,
+      "popularity_score": 0.237,
+      "engagement_score": 0.158
+    },
+    {
+      "level_id": "eefc1bdb-94bd-4eef-8893-6b09ffc0e963",
+      "title": "Level 97",
+      "maker": "Player 7",
+      "difficulty": "easy",
+      "clear_rate": 97.28,
+      "attempts": 554,
+      "clears": 75,
+      "likes": 116,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.537,
+      "difficulty_score": 0.067,
+      "popularity_score": 0.726,
+      "engagement_score": 0.331
+    },
+    {
+      "level_id": "bde67d3d-e6ff-4afe-8c95-b845cab6e1f1",
+      "title": "Level 98",
+      "maker": "Player 8",
+      "difficulty": "normal",
+      "clear_rate": 65.25,
+      "attempts": 240,
+      "clears": 38,
+      "likes": 440,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.126,
+      "difficulty_score": 0.837,
+      "popularity_score": 0.974,
+      "engagement_score": 0.057
+    },
+    {
+      "level_id": "f8acb190-c482-4879-9f9e-b4fc0735bb45",
+      "title": "Level 99",
+      "maker": "Player 9",
+      "difficulty": "hard",
+      "clear_rate": 93.99,
+      "attempts": 294,
+      "clears": 19,
+      "likes": 199,
+      "tags": [
+        "platformer",
+        "speedrun"
+      ],
+      "completion_rate": 0.286,
+      "difficulty_score": 0.02,
+      "popularity_score": 0.317,
+      "engagement_score": 0.368
+    },
+    {
+      "level_id": "2ff8128e-3fd7-4926-9995-b1041bc8ab70",
+      "title": "Level 100",
+      "maker": "Player 10",
+      "difficulty": "expert",
+      "clear_rate": 49.22,
+      "attempts": 607,
+      "clears": 32,
+      "likes": 145,
+      "tags": [
+        "puzzle",
+        "technical"
+      ],
+      "completion_rate": 0.708,
+      "difficulty_score": 0.124,
+      "popularity_score": 0.006,
+      "engagement_score": 0.525
+    }
+  ]
+}

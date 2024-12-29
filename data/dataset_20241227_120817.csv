@@ -1,0 +1,11 @@
+level_id,title,maker,difficulty,clear_rate,attempts,clears,likes,tags,completion_rate,difficulty_score,popularity_score,engagement_score,timestamp,data_version
+f819eed6-dc6d-469d-a946-daa90d27b9cf,Level 1,Player 1,easy,2.66,245,51,235,"platformer,speedrun",0.423,0.573,0.949,0.535,2024-12-27 12:08:17.358264,1.0
+a09999fd-ecd9-4b84-ab67-20254a6259aa,Level 2,Player 2,normal,48.21,572,41,226,"puzzle,technical",0.778,0.382,0.268,0.034,2024-12-27 12:08:17.358264,1.0
+dfcf15b2-88a2-4718-8445-21f30fc51eff,Level 3,Player 3,hard,94.43,564,1,107,"platformer,speedrun",0.838,0.844,0.221,0.979,2024-12-27 12:08:17.358264,1.0
+25652135-d033-4d48-a794-23e924e96e84,Level 4,Player 4,expert,78.62,531,61,371,"puzzle,technical",0.093,0.164,0.184,0.004,2024-12-27 12:08:17.358264,1.0
+02012ac6-012c-4f7a-b022-b3fc17ac81d9,Level 5,Player 5,easy,73.55,30,12,313,"platformer,speedrun",0.464,0.354,0.885,0.933,2024-12-27 12:08:17.358264,1.0
+ff305de7-64a9-442c-a803-4f74529b60c9,Level 6,Player 6,normal,44.99,592,51,351,"puzzle,technical",0.997,0.623,0.529,0.949,2024-12-27 12:08:17.358264,1.0
+ffacc66e-606f-4dc6-b0b5-d5d87cfa9514,Level 7,Player 7,hard,17.3,639,31,364,"platformer,speedrun",0.386,0.362,0.818,0.981,2024-12-27 12:08:17.358264,1.0
+b95d1a28-f724-44b0-9ff4-9477c517f91c,Level 8,Player 8,expert,4.82,565,97,185,"puzzle,technical",0.993,0.409,0.042,0.77,2024-12-27 12:08:17.358264,1.0
+6219fe8f-bbd6-466c-810e-090fe2decf54,Level 9,Player 9,easy,4.03,133,73,465,"platformer,speedrun",0.565,0.273,0.431,0.152,2024-12-27 12:08:17.358264,1.0
+cce6d5e7-3917-4c0e-8691-1496679e642a,Level 10,Player 10,normal,20.12,672,96,335,"puzzle,technical",0.492,0.761,0.937,0.029,2024-12-27 12:08:17.358264,1.0
