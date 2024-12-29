@@ -6,3 +6,4 @@ matplotlib
 azure-storage-blob
 requests
 mega.py
+statsmodels
