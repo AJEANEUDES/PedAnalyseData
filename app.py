@@ -19,7 +19,7 @@ st.set_page_config(
 # Titre principal
 st.title("📊 Analyse de Données de Jeux Platformer")
 st.markdown("---")
-st.paragr("test")
+st.text("Analyse des données de type platformer sur les données de jeu de superMario")
 
 # Chargement des données
 df = load_data(use_processed=True)

@@ -7,6 +7,7 @@ from pathlib import Path
 import git
 import os
 import uuid
+import pandas as pd  # Ajouté pour traiter les fichiers CSV ou JSON
 import numpy as np
 
 class DataCollector:
@@ -29,76 +30,67 @@ class DataCollector:
     
     def collect_game_data(self, limit: int = 100) -> Dict[str, List[Dict[str, Any]]]:
         """
-        Collects game data from the PED GitHub repository.
+        Collecte les données de jeu depuis le dépôt GitHub PED.
         Args:
-            limit: Maximum number of entries to collect
+            limit: Nombre maximum d'entrées à collecter
         Returns:
-            Dictionary containing collected game data with 'levels' key
+            Dictionnaire contenant les données collectées avec la clé 'levels'
         """
         try:
-            logging.info(f"Cloning repository from {self.repo_url}...")
-            
-            # Clone or update repository
+            logging.info(f"Clonage du dépôt depuis {self.repo_url}...")
+
+            # Cloner ou mettre à jour le dépôt
             self._setup_repository()
+
+            # Charger les données depuis le dépôt cloné
+            levels_data = self._load_data_from_repo(limit)
             
-            # Generate sample data
-            levels_data = self._generate_sample_data(limit)
-            
-            # Save raw data
+            # Sauvegarder les données brutes
             collected_data = {"levels": levels_data}
             self._save_raw_data(collected_data)
             
             return collected_data
             
         except Exception as e:
-            logging.error(f"Data collection failed: {str(e)}")
-            # Return empty but valid structure on error
+            logging.error(f"Échec de la collecte des données : {str(e)}")
             return {"levels": []}
     
     def _setup_repository(self):
-        """Sets up or updates the local repository"""
+        """Clone ou met à jour le dépôt local"""
         if not self.local_repo_path.exists():
             git.Repo.clone_from(self.repo_url, self.local_repo_path)
-            logging.info("Repository cloned successfully")
+            logging.info("Dépôt cloné avec succès")
         else:
             repo = git.Repo(self.local_repo_path)
-            repo.remotes.origin.pull()
-            logging.info("Repository updated successfully")
+            repo.remotes.origin.pull()  # Mettre à jour le dépôt
+            logging.info("Dépôt mis à jour avec succès")
     
-    def _generate_sample_data(self, limit: int) -> List[Dict[str, Any]]:
-        """Generates sample game data with the required structure"""
-        sample_data = []
-        difficulties = ["easy", "normal", "hard", "expert"]
+    def _load_data_from_repo(self, limit: int) -> List[Dict[str, Any]]:
+        """Charge les données depuis les fichiers dans le dépôt cloné."""
+        levels_data = []
         
-        for i in range(limit):
-            level_data = {
-                "level_id": str(uuid.uuid4()),
-                "title": f"Level {i+1}",
-                "maker": f"Player {i % 10 + 1}",
-                "difficulty": difficulties[i % len(difficulties)],
-                "clear_rate": round(np.random.uniform(0, 100), 2),
-                "attempts": np.random.randint(10, 1000),
-                "clears": np.random.randint(1, 100),
-                "likes": np.random.randint(0, 500),
-                "tags": ["platformer", "speedrun"] if i % 2 == 0 else ["puzzle", "technical"],
-                "completion_rate": round(np.random.uniform(0, 1), 3),
-                "difficulty_score": round(np.random.uniform(0, 1), 3),
-                "popularity_score": round(np.random.uniform(0, 1), 3),
-                "engagement_score": round(np.random.uniform(0, 1), 3)
-            }
-            sample_data.append(level_data)
+        # Exemple de chemin vers un fichier CSV ou JSON dans le dépôt
+        file_path = self.local_repo_path / "data" / "game_levels.csv"
         
-        return sample_data
+        if file_path.exists():
+            # Si le fichier est CSV
+            df = pd.read_csv(file_path)
+            levels_data = df.head(limit).to_dict(orient="records")  # Limite le nombre d'entrées
+            
+        else:
+            logging.warning(f"Le fichier {file_path} n'a pas été trouvé dans le dépôt.")
+        
+        return levels_data
     
     def _save_raw_data(self, data: Dict[str, List[Dict[str, Any]]]):
-        """Saves raw data to JSON file"""
+        """Sauvegarde les données brutes dans un fichier JSON"""
         timestamp = time.strftime("%Y%m%d_%H%M%S")
         filepath = self.data_dir / f"raw_data_{timestamp}.json"
         with open(filepath, 'w') as f:
             json.dump(data, f, indent=2)
-        logging.info(f"Raw data saved to {filepath}")
+        logging.info(f"Données brutes sauvegardées dans {filepath}")
 
 if __name__ == "__main__":
     collector = DataCollector()
     data = collector.collect_game_data()
-    print(f"Collected {len(data['levels'])} level entries")
+    print(f"{len(data['levels'])} niveaux collectés")
